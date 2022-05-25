@@ -1,0 +1,52 @@
+@import url(https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap);
+
+body{
+    font-family: "Nanum Myeongjo";
+    margin: 0;
+    padding: 0;
+    padding-top: 20%;
+}
+h2{
+    text-align: center;
+    margin-top: -5px;
+}
+#tela{
+    width: 100%;
+    height: 100%;
+    opacity: 0.95;
+    position: absolute;
+    color: black;
+    display: none;
+    background-color:white;
+    padding-top: 10% ;
+    text-align: center;
+}
+.container{
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    border: 3px solid black;
+    background-color:whitesmoke;
+}
+.grid{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+.celula{
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color:black;
+    color: white;
+}
+.jogo{
+    text-align: center;
+    
+}
